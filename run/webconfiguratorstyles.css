@@ -1,0 +1,166 @@
+.bp3-select-popover .bp3-menu{max-height:300px;overflow:auto}
+
+.conf-layout {
+    display:grid;
+    grid-gap: 20px;
+    grid-template-areas:
+    "header"
+    "leftpanel"
+    "rightpanel"
+    "contentpanel"
+    "bottombar"
+}
+
+@media (min-width: 800px) {
+    .conf-layout {
+        position: absolute;
+        width: calc(100vw - 50px);
+        height: calc(100% - 40px);
+        grid-template-columns: 1fr 7fr 1fr;
+        grid-template-rows: 100px 0fr 680px;
+        /* width:calc(100vw - 50px); */
+        /* height:calc(100% - 120px); */
+        /* height:calc(100% - 40px);
+        grid-template-columns: 1fr 4fr 2fr;
+        grid-template-rows: 100px 1fr 50px; */
+        grid-template-areas:
+        "header header header"
+        "header2 header2 header2"
+        "leftpanel contentpanel rightpanel"
+        "bottombar bottombar bottombar"
+    }
+}
+
+.kova-header{
+    background-color: #e7e7e7;
+    grid-area: header2;
+    border-bottom: #7a7a7a;
+    border-width: 1px;
+    border-bottom-style: solid;
+    height: 50px;
+}
+
+.kova-logo{
+    margin-left: 10px;
+    margin-top: 7px;
+}
+
+.printbutton{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.OptSelectionPanelHeader li{
+    display: inline-block;
+    margin-top: 0px;
+    padding-right: 50px;
+}
+
+.conf-header {
+    grid-area: header;
+    margin-left: 10px;
+}
+
+.conf-leftpanel {
+    overflow:auto;
+    grid-area: leftpanel;
+    width: 360px;
+}
+
+.conf-rightpanel {
+    overflow:auto;
+    grid-area: rightpanel;
+}
+
+.conf-contentpanel {
+    overflow:auto;
+    grid-area: contentpanel;
+}
+
+.conf-bottombar {
+    grid-area: bottombar;
+}
+
+.OptPricingPanel{
+    margin-top: 50px;
+    right: 0;
+    position: absolute;
+}
+
+.OptLocationItem {
+    text-decoration:none;
+}
+
+.OptLocationItem.OptLocationItemCurrent {
+    font-weight: bolder;
+}
+
+.visualizerImage{
+    max-width: 55%;
+}
+
+.bp3-popover-wrapper{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.loadtextinfo{
+    margin-left: 10px;
+    position: inherit;
+    margin-top: 100px;
+}
+
+/* The Modal (background) */
+.modal {
+    /* display: none;  */
+    position: fixed; 
+    z-index: 999; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.OptSelectionPanelHeaderOptions{
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.modalheadertext{
+    margin-top: 0px;
+}
+
+.bp3-input-group {
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.modalbutton{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}

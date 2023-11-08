@@ -1,0 +1,972 @@
+{
+  "program": {
+    "fileInfos": {
+      "../node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "b42eddba1a53c9d27279cfe7fc0416c10a81489826ad47e39013b9d340fc0cc7",
+        "signature": "b42eddba1a53c9d27279cfe7fc0416c10a81489826ad47e39013b9d340fc0cc7"
+      },
+      "../node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96",
+        "signature": "7994d44005046d1413ea31d046577cdda33b8b2470f30281fd9c8b3c99fe2d96"
+      },
+      "../node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1",
+        "signature": "5f217838d25704474d9ef93774f04164889169ca31475fe423a9de6758f058d1"
+      },
+      "../node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743",
+        "signature": "459097c7bdd88fc5731367e56591e4f465f2c9de81a35427a7bd473165c34743"
+      },
+      "../node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "f2039e0dbc31f69183f6377b368c033802dfdcf77e5fd214def06c1fd7b225ed",
+        "signature": "f2039e0dbc31f69183f6377b368c033802dfdcf77e5fd214def06c1fd7b225ed"
+      },
+      "../node_modules/typescript/lib/lib.dom.iterable.d.ts": {
+        "version": "8329c3401aa8708426c7760f14219170f69a2cb77e4519758cec6f5027270faf",
+        "signature": "8329c3401aa8708426c7760f14219170f69a2cb77e4519758cec6f5027270faf"
+      },
+      "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b",
+        "signature": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b"
+      },
+      "../node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9",
+        "signature": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9"
+      },
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "734ddc145e147fbcd55f07d034f50ccff1086f5a880107665ec326fb368876f6",
+        "signature": "734ddc145e147fbcd55f07d034f50ccff1086f5a880107665ec326fb368876f6"
+      },
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "4a0862a21f4700de873db3b916f70e41570e2f558da77d2087c9490f5a0615d8",
+        "signature": "4a0862a21f4700de873db3b916f70e41570e2f558da77d2087c9490f5a0615d8"
+      },
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "765e0e9c9d74cf4d031ca8b0bdb269a853e7d81eda6354c8510218d03db12122",
+        "signature": "765e0e9c9d74cf4d031ca8b0bdb269a853e7d81eda6354c8510218d03db12122"
+      },
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "285958e7699f1babd76d595830207f18d719662a0c30fac7baca7df7162a9210",
+        "signature": "285958e7699f1babd76d595830207f18d719662a0c30fac7baca7df7162a9210"
+      },
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "d4deaafbb18680e3143e8b471acd650ed6f72a408a33137f0a0dd104fbe7f8ca",
+        "signature": "d4deaafbb18680e3143e8b471acd650ed6f72a408a33137f0a0dd104fbe7f8ca"
+      },
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe",
+        "signature": "5e72f949a89717db444e3bd9433468890068bb21a5638d8ab15a1359e05e54fe"
+      },
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976",
+        "signature": "f5b242136ae9bfb1cc99a5971cccc44e99947ae6b5ef6fd8aa54b5ade553b976"
+      },
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230",
+        "signature": "9ae2860252d6b5f16e2026d8a2c2069db7b2a3295e98b6031d01337b96437230"
+      },
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303",
+        "signature": "3e0a459888f32b42138d5a39f706ff2d55d500ab1031e0988b5568b0f67c2303"
+      },
+      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0",
+        "signature": "3f96f1e570aedbd97bf818c246727151e873125d0512e4ae904330286c721bc0"
+      },
+      "../node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "c2d60b2e558d44384e4704b00e6b3d154334721a911f094d3133c35f0917b408",
+        "signature": "c2d60b2e558d44384e4704b00e6b3d154334721a911f094d3133c35f0917b408"
+      },
+      "../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f",
+        "signature": "b8667586a618c5cf64523d4e500ae39e781428abfb28f3de441fc66b56144b6f"
+      },
+      "../node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c",
+        "signature": "21df2e0059f14dcb4c3a0e125859f6b6ff01332ee24b0065a741d121250bc71c"
+      },
+      "../node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6",
+        "signature": "c1759cb171c7619af0d2234f2f8fb2a871ee88e956e2ed91bb61778e41f272c6"
+      },
+      "../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46",
+        "signature": "28569d59e07d4378cb3d54979c4c60f9f06305c9bb6999ffe6cab758957adc46"
+      },
+      "../node_modules/typescript/lib/lib.es2017.full.d.ts": {
+        "version": "873c09f1c309389742d98b7b67419a8e0a5fa6f10ce59fd5149ecd31a2818594",
+        "signature": "873c09f1c309389742d98b7b67419a8e0a5fa6f10ce59fd5149ecd31a2818594"
+      },
+      "../src/ruleexecution/baseoptruleexecutor.ts": {
+        "version": "6f8ab0ef63e76c05d8b2bab7af09837a1e49772a3e5029b0be567a321c05b21e",
+        "signature": "7e2844f76d5a4f139f678cc8a406681351172870b3d6bf73332d3f44e8998459"
+      },
+      "../src/choices/optchoice.ts": {
+        "version": "8222b4ea91d0da483ee67321161a4b6d382f795b42d512a50427b6f337ce8b76",
+        "signature": "f9f044651615146069251d7c6e32199e37ed8866b34df5a5aa91ab823c4d33b7"
+      },
+      "../src/asyncimageclient.ts": {
+        "version": "f98ab40086d3aec5de6f30f8b921142e1eba4a621343f30c12188f360420df36",
+        "signature": "a0818b80de47745172c96fc25fe4c4e83f7be3206f0980e37a76229e64bbda71"
+      },
+      "../src/jstypes/jsoptlocation.ts": {
+        "version": "4d6aad809e2a0729a4da817bbe06e1b9a36daca8815f10e8f067191f96b6861d",
+        "signature": "93ee8e64ba79c5874cc098953d3decbc7394ff57d93e8380c654bbae1bb61746"
+      },
+      "../src/jstypes/jsqtyunit.ts": {
+        "version": "ce39f022449128c72e6409e8ee148bacd467dd1cf86c2a6dbd3a9a638f0f8450",
+        "signature": "ae13a4676cb184c581a836c3530264e58c8d3e385cff20fc181b3b9df720f288"
+      },
+      "../src/jstypes/jsstyleandcolor.ts": {
+        "version": "253cafea893b1f411c86b8fd6b4e40d645a0c354e723ec6be1842af2ec356405",
+        "signature": "df0d940b5b3fc1cc5c543cd17bbbfb1ee3c10be48420fb6a9d54bd984e6f8a90"
+      },
+      "../src/jstypes/jsoptvalue.ts": {
+        "version": "d5103067a5468580b085a7b6c0ce8a94d12a2c2fe50e1700dca2f28c6234731a",
+        "signature": "7018ec7147b0d26f7ca1b5d4a98f43de0493c74577f050756b33828af626c96d"
+      },
+      "../src/jstypes/jsoptselection.ts": {
+        "version": "822d132a00fdc9c5991479457b00bf1250ad251c7d48092af7407a7686dcfba8",
+        "signature": "42dddb7868128494dd40b7d700aa30f21e0ae19bb977d04ccf2321b229aed6ce"
+      },
+      "../src/jstypes/jsoptcontext.ts": {
+        "version": "5b11242da00311b3c925e91598a409ca16bcf1833f5497e97aaa00c70e6bc3c5",
+        "signature": "718f2d460c53f6a4f6de9f71ad6aa4c28595ee44a1c18c87627d1b689d442948"
+      },
+      "../src/jstypes/jsoptchoicecontext.ts": {
+        "version": "c6d778cb14fb2a6bda2cf13d23d084bf83143803d062d673c1f735591b30b7df",
+        "signature": "55463bd1e7142628173dcfca2330dec859daac62fd1bf66a3ba1285768c77b3a"
+      },
+      "../src/options/optcontext.ts": {
+        "version": "896b3b29fda9d54a7744997e436f92ab2777bcaf01b26d68cc8e7a01b68fe54f",
+        "signature": "1caadeada4854ad499f06d4acf6bd322f40d113d93e0e5a074e794850eac8907"
+      },
+      "../src/choices/optchoicecontext.ts": {
+        "version": "e01225221235a7e6fdfb71e0dcb35c4b1ebb84a69bf1e6eb1870c6245fc32aa4",
+        "signature": "a066f822c839149003365e70e278ded784b10bdb561b40551b690b6a378584b9"
+      },
+      "../src/ruleexecution/optexecutionmenu.ts": {
+        "version": "e6b5c9731a3ad199eb9d057860f885e92b09f30e6952879d49a1c6790cdbfd68",
+        "signature": "edfd4c970318a8d0d390ba6671eff209946e67bef86f845db8525b88992cf1ff"
+      },
+      "../src/floorplans/optfloorplanimage.ts": {
+        "version": "adcea1f64d60433b2067956f305ed4651d67720ac92a0a020c4bc8f2d1110e18",
+        "signature": "fb85455b1985999cc4696f8452d12a5535c81995b3e7b0dcb91515f59bd93390"
+      },
+      "../src/ruleexecution/optexecutioncontext.ts": {
+        "version": "3ad3f8973bf1865ec0fba0258a229ae9420eb2f1a9009f80638f88c6a60d32fe",
+        "signature": "c0f417ec898f28a7e05aff0c77bf80fb492498f38ef865b73ec571aa56f34e9f"
+      },
+      "../src/jstypes/jslotprice.ts": {
+        "version": "2ef1c776393615a17ce7df2734dce0983b631f768ec32991c744c064e9780caf",
+        "signature": "5bb16552dc051c953206cd5968284a5a25daab31bc250c1ad7a54c6a0a764ba1"
+      },
+      "../src/jstypes/jsmodelprice.ts": {
+        "version": "119bbacb08d00e9d3325b48cdad8fc40b852f216e8a771df2b918c34177cd7ce",
+        "signature": "9a12d72fadeb8a6a7a15596fb8833ec9a0c64e6d5d1e24573e46237826af5e34"
+      },
+      "../src/pricing/optpricingcontext.ts": {
+        "version": "1d5250a48b54c9a284a63ebc441b28ae2994ac2a71c3afa04566a51c45956685",
+        "signature": "4cbbb03933ea154cd3ebc717da0b842ad3b3213ce8c73c35a0117b0a99ea084c"
+      },
+      "../src/debugging/performanceprofiler.ts": {
+        "version": "af9cec79122800282d7293710abb55d5e781bb3e1c8399aed4c64b8f26a08478",
+        "signature": "57aa535af5d581523f377f3f4f0dbafb564493d05b4a2d75f87f8b9f21b0cb5c"
+      },
+      "../src/ruleexecution/optruleexecutor.ts": {
+        "version": "7e323ef6934ddfdf0f3648c815314ad057b287fae4f1553894ada6adbc9b1eb9",
+        "signature": "e0afe203741a5b38a88312e376789701263b8622af329ee3c14b4887ac148a0a"
+      },
+      "../src/jstypes/jsoptfloorplancontext.ts": {
+        "version": "303625848d4edf6362c86a0b01d8a5e3db1030f069874a7aa0379b8f9da54fd6",
+        "signature": "8fa5b660d5668dac8d733ef71bdc5601599924dc2664dad3e8bc83a459a60d18"
+      },
+      "../src/floorplans/optfloorplancontext.ts": {
+        "version": "469c1d1886c6b5e9ff7174f0bc75d87abaa8639addee07a13f24c75901b70003",
+        "signature": "f04af607c1fc75b9d4db535c5ef5a189e469142c563fe7cfc91ca4e43c8b33bb"
+      },
+      "../src/debugging/optruleexpressioneffecttype.ts": {
+        "version": "9f0afd57eac99e476352df539c34f539029ff5c4c3b414a6440359817b34e1e0",
+        "signature": "7e9d1e70d2b4b103379b1ca07f2e9fc7026c2b5c962057b4adbcd9ef219d6585"
+      },
+      "../src/jstypes/optjsdebugcontext.ts": {
+        "version": "fa0ade79d84385fd8188fbbded5a19fb5689045737fcc871e4acc2b8c1b2c6dc",
+        "signature": "a3a7281dc4cf92c778d2f07dfc12360a6943e30c6d3aa1dc05772cb495961564"
+      },
+      "../src/debugging/optdebugcontext.ts": {
+        "version": "5fcce3a1f6c39f8d1377f0ac809eba4be58f9c1dc8cb35120313882cba5ad0bd",
+        "signature": "9e90eda490c14fcd5546a8c1c60c13f967240c749e6c9db7557da8901e244c10"
+      },
+      "../src/jstypes/jsgetoptcontext.ts": {
+        "version": "3736ddcd531f6924b3da34f713eee89b3a8aa4bbadbecd495ddd50230eb0a277",
+        "signature": "fca9d0c7d133c46b4f75dbeec03491825c81cdf0d6b898a4547d90abd35cac8e"
+      },
+      "../src/pricecollection.ts": {
+        "version": "612a87afcc870b19d622c572136a0d1232525d3a5f19f4f21638a12fc2e27ee9",
+        "signature": "2ff0def24baf6ced25ec4af12da1e498608d2500e1844bc993225e6889745a84"
+      },
+      "../src/configurationstate.ts": {
+        "version": "e140b6a1ebe57da5b3333d96fd4c880d0f5e8439937f3d5b95bf0df50aa0cf61",
+        "signature": "fc570a4a4493d8da6a2ee6d12c307e69320b2fc5fdff1389ffb925e061900a3a"
+      },
+      "../src/applychoice.ts": {
+        "version": "4e39c2ff78f051ed7c996f70c76be7e0b5219815393d7761d2be8decaea1a01b",
+        "signature": "f52cdb7ca2491b8aec668d07c842bfcd5b8329b05881fbbe1c3e288c103c7142"
+      },
+      "../src/worksheetinfo.ts": {
+        "version": "fd6d18a5e587abd0d87bbdc186b44e723185634a8388584cfdcfacd8d3d36129",
+        "signature": "7c228e07461b0ed141048d40cdd682a7e3030c65424e4f4a2f911f74cacaefe7"
+      },
+      "../src/client.ts": {
+        "version": "455ce955536b8d29695291dde6512be8b405a5d0ec2260766eda94270ab8921a",
+        "signature": "a2e00710889eb335856340d9265689c200e3051ffdc6abb1a67042f99d70f2ef"
+      },
+      "../src/dcportalclient.ts": {
+        "version": "a0c275c3a1fe8b24febf4818a9035dcf2c83f9a5ba7a2b09e8142b4993fa0147",
+        "signature": "ba4c476d849f0620b2685756ba21ef9c67dce9c1e50de917c0083bdf28b1d22e"
+      },
+      "../src/optconfiguratorsession.ts": {
+        "version": "bb43147a33e3e813e847b697fd8250943162344eb78828df6bdb66ef3aee5d39",
+        "signature": "727aaa87acd771e00b955bfb9ee9e6ae1047b13f5d121d90978d47eac542f94e"
+      },
+      "../src/floorplans/optfloorplanvisualcontainer.ts": {
+        "version": "cabb82ffb3f2264c633b66f5d125b854c78a97a6895748db758da939682e6cf7",
+        "signature": "c218de3a6d1ea9ea8a9dd43b8a7cb20dd7236887fa8ecb2e8c6e6ecd53d871c2"
+      },
+      "../index.ts": {
+        "version": "08efc249c3b0b52e31855f70c4e843a92669a7b3a36ad7560f2b2452c8e3e83f",
+        "signature": "e6bb3b4003ad817ab54fed0749eeabdef6388d5893a62e23d0ccba383ed61dcd"
+      },
+      "../tests/testsupport/testablerulefunction.ts": {
+        "version": "082587680dbd546808c60e094b659900d017a1da5383576df8f5ca0bdc3fbf08",
+        "signature": "a0f6f2f73e0e48b23efee6fd50ee16d981ea81126cb935aec1a18c02542e5560"
+      },
+      "../tests/testsupport/optrulefactory.ts": {
+        "version": "5ee617bb7fdf3b7277bdade510ac601154cfbe84ec770a5ffb92e41395921386",
+        "signature": "1f77e8ac31d1a2b7ed32afce4306dfe5bbfb2e3f561ebf9dadab5cd9dccfbe6e"
+      },
+      "../tests/testsupport/optcontextfactory.ts": {
+        "version": "23bdff9d6b8c7e87df4e23c1c738190d12b4418c6ed8ed04bdf3126b83686360",
+        "signature": "11ab4bdf959bf3f78ad63f0f2001eb69b45043b091bffda15ec59350de8855ca"
+      },
+      "../tests/testsupport/optruleexpressionbinaryoperator.ts": {
+        "version": "0bc375b9b70cbb2c20420f177e6b8a72a462cfc83d814997f8633598695a4efa",
+        "signature": "2fe2838721b257470a1d0fdc968a0a960f8d8379599a9783e24b32d7feac82cc"
+      },
+      "../tests/testsupport/optruleconditionfactory.ts": {
+        "version": "853ad4b882ee480d4c8f376b4f70d6c3fc3f80b98de34e57a76a00c5442c70ae",
+        "signature": "04af7e002ef540704808a18d95ac8ecaea419167a9f615e840600962dd2e771d"
+      },
+      "../tests/optconfigurator.test.ts": {
+        "version": "be73d7a69315043b3d44592f4674f67c7d299cfc2216eccae6c20c89573d02f9",
+        "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6"
+      },
+      "../tests/testsupport/expectextensions.ts": {
+        "version": "a706603b2f21681a93d00ea18462323b83af5884f79b6c28d05fa1af2abfd0c5",
+        "signature": "31ead39d99013d3a28513742410a3123d9e83b8d3f101c3d9d113bb7e48f9a28"
+      },
+      "../tests/testsupport/recursivepartial.ts": {
+        "version": "3c21801cf7f6c22804fab8259826e0a54e259db7553447874ca7395cd09d67d0",
+        "signature": "7d0cc066c93ca688098443159e44a1beaabdf9d68594ebc07f04547ae5848b0a"
+      },
+      "../node_modules/@babel/types/lib/index.d.ts": {
+        "version": "46e1c0ff85e62a6dd46647380d60f63db213724b0672e2f03849bb6871dadc67",
+        "signature": "46e1c0ff85e62a6dd46647380d60f63db213724b0672e2f03849bb6871dadc67"
+      },
+      "../node_modules/@types/babel__generator/index.d.ts": {
+        "version": "b25c5f2970d06c729f464c0aeaa64b1a5b5f1355aa93554bb5f9c199b8624b1e",
+        "signature": "b25c5f2970d06c729f464c0aeaa64b1a5b5f1355aa93554bb5f9c199b8624b1e"
+      },
+      "../node_modules/@types/babel__traverse/index.d.ts": {
+        "version": "3db699e002d857ea05942e0b19b5091919fa5d01c21ea789c74763c9a81bb28f",
+        "signature": "3db699e002d857ea05942e0b19b5091919fa5d01c21ea789c74763c9a81bb28f"
+      },
+      "../node_modules/@babel/parser/typings/babel-parser.d.ts": {
+        "version": "67fb81fcd13edc5410665fa72892dd0878654b54946e8b0f10af5adc234bfe8f",
+        "signature": "67fb81fcd13edc5410665fa72892dd0878654b54946e8b0f10af5adc234bfe8f"
+      },
+      "../node_modules/@types/babel__template/index.d.ts": {
+        "version": "3e0a34f7207431d967dc32d593d1cda0c23975e9484bc8895b39d96ffca4a0d8",
+        "signature": "3e0a34f7207431d967dc32d593d1cda0c23975e9484bc8895b39d96ffca4a0d8"
+      },
+      "../node_modules/@types/babel__core/index.d.ts": {
+        "version": "8b6748f9e15ad7bac494dc3cd3b13ba0a8be195aca97f7c10a96b1c74a956f32",
+        "signature": "8b6748f9e15ad7bac494dc3cd3b13ba0a8be195aca97f7c10a96b1c74a956f32"
+      },
+      "../node_modules/@types/react/global.d.ts": {
+        "version": "68188f9f0950ca019af3f061cb494751a2798648586207cbf2089dccd68b663c",
+        "signature": "68188f9f0950ca019af3f061cb494751a2798648586207cbf2089dccd68b663c"
+      },
+      "../node_modules/csstype/index.d.ts": {
+        "version": "599c67cf56a35a8a7bee5bcd877dece4cb71553efb763ebf1050c6987acfaefc",
+        "signature": "599c67cf56a35a8a7bee5bcd877dece4cb71553efb763ebf1050c6987acfaefc"
+      },
+      "../node_modules/@types/prop-types/index.d.ts": {
+        "version": "5e632216dfe01f2ff76f1c312c28632fde75364c24d659b732f2ee59e9ccf1b2",
+        "signature": "5e632216dfe01f2ff76f1c312c28632fde75364c24d659b732f2ee59e9ccf1b2"
+      },
+      "../node_modules/@types/react/index.d.ts": {
+        "version": "ca7fd0b19265fdc74c5ffdc43c0e30d69a246b300b45da34834d7f37bc52caef",
+        "signature": "ca7fd0b19265fdc74c5ffdc43c0e30d69a246b300b45da34834d7f37bc52caef"
+      },
+      "../node_modules/@types/hoist-non-react-statics/index.d.ts": {
+        "version": "bfe1b52cf71aea9bf8815810cc5d9490fa9617313e3d3c2ee3809a28b80d0bb4",
+        "signature": "bfe1b52cf71aea9bf8815810cc5d9490fa9617313e3d3c2ee3809a28b80d0bb4"
+      },
+      "../node_modules/@types/istanbul-lib-coverage/index.d.ts": {
+        "version": "9e951ec338c4232d611552a1be7b4ecec79a8c2307a893ce39701316fe2374bd",
+        "signature": "9e951ec338c4232d611552a1be7b4ecec79a8c2307a893ce39701316fe2374bd"
+      },
+      "../node_modules/@types/istanbul-lib-report/index.d.ts": {
+        "version": "7eb06594824ada538b1d8b48c3925a83e7db792f47a081a62cf3e5c4e23cf0ee",
+        "signature": "7eb06594824ada538b1d8b48c3925a83e7db792f47a081a62cf3e5c4e23cf0ee"
+      },
+      "../node_modules/@types/istanbul-reports/index.d.ts": {
+        "version": "93b59bc67329d5add033e3198583c39aa939cef891e6a2b763e0bea2b514ea9b",
+        "signature": "93b59bc67329d5add033e3198583c39aa939cef891e6a2b763e0bea2b514ea9b"
+      },
+      "../node_modules/jest-diff/build/types.d.ts": {
+        "version": "71ba0678a3c647f5c0706ae975c031ace0d464e60f9ce56eaa7f1678d065aab7",
+        "signature": "71ba0678a3c647f5c0706ae975c031ace0d464e60f9ce56eaa7f1678d065aab7"
+      },
+      "../node_modules/jest-diff/build/index.d.ts": {
+        "version": "162c6f2951bd80ae6e16679378f382200b26bba9de8f255af3a2895fbfa670b4",
+        "signature": "162c6f2951bd80ae6e16679378f382200b26bba9de8f255af3a2895fbfa670b4"
+      },
+      "../node_modules/@types/jest/index.d.ts": {
+        "version": "efa533e2d13eb3af93317b08fea50d35481abdbf9852745167c21cea4e2d27dc",
+        "signature": "efa533e2d13eb3af93317b08fea50d35481abdbf9852745167c21cea4e2d27dc"
+      },
+      "../node_modules/symbol-observable/index.d.ts": {
+        "version": "7ccece60f62968f5765383f1f5322ace6937e42c3a2068834ac214fe24f9b7bc",
+        "signature": "7ccece60f62968f5765383f1f5322ace6937e42c3a2068834ac214fe24f9b7bc"
+      },
+      "../node_modules/redux/index.d.ts": {
+        "version": "7d194050bddceaddf8956706259fd6076cff3b5505ae83857f33fb03db6eda76",
+        "signature": "7d194050bddceaddf8956706259fd6076cff3b5505ae83857f33fb03db6eda76"
+      },
+      "../node_modules/@types/react-redux/index.d.ts": {
+        "version": "343582fd11e4133304f7d6158f964e625ec03bb8db5e46286bc4b2dba02fb820",
+        "signature": "343582fd11e4133304f7d6158f964e625ec03bb8db5e46286bc4b2dba02fb820"
+      },
+      "../node_modules/@types/stack-utils/index.d.ts": {
+        "version": "41422586881bcd739b4e62d9b91cd29909f8572aa3e3cdf316b7c50f14708d49",
+        "signature": "41422586881bcd739b4e62d9b91cd29909f8572aa3e3cdf316b7c50f14708d49"
+      },
+      "../node_modules/@types/yargs-parser/index.d.ts": {
+        "version": "fdfbe321c556c39a2ecf791d537b999591d0849e971dd938d88f460fea0186f6",
+        "signature": "fdfbe321c556c39a2ecf791d537b999591d0849e971dd938d88f460fea0186f6"
+      },
+      "../node_modules/@types/yargs/index.d.ts": {
+        "version": "989ea8e89ef2d6a07a1872fcee14be6b9e1920b04f19a4ab149d673f89af67e6",
+        "signature": "989ea8e89ef2d6a07a1872fcee14be6b9e1920b04f19a4ab149d673f89af67e6"
+      }
+    },
+    "options": {
+      "moduleResolution": 2,
+      "target": 4,
+      "noImplicitAny": true,
+      "strict": true,
+      "composite": true,
+      "outDir": "./",
+      "emitDeclarationOnly": true,
+      "module": 3,
+      "configFilePath": "../tsconfig.json"
+    },
+    "referencedMap": {
+      "../src/ruleexecution/baseoptruleexecutor.ts": [
+        "../src/options/optcontext.ts",
+        "../src/choices/optchoicecontext.ts"
+      ],
+      "../src/choices/optchoice.ts": [
+        "../src/options/optcontext.ts",
+        "../src/ruleexecution/baseoptruleexecutor.ts",
+        "../src/choices/optchoicecontext.ts"
+      ],
+      "../src/jstypes/jsstyleandcolor.ts": [
+        "../src/jstypes/jsqtyunit.ts"
+      ],
+      "../src/jstypes/jsoptvalue.ts": [
+        "../src/jstypes/jsqtyunit.ts",
+        "../src/jstypes/jsstyleandcolor.ts"
+      ],
+      "../src/jstypes/jsoptselection.ts": [
+        "../src/jstypes/jsoptlocation.ts",
+        "../src/options/optcontext.ts",
+        "../src/jstypes/jsoptvalue.ts"
+      ],
+      "../src/jstypes/jsoptcontext.ts": [
+        "../src/jstypes/jsoptlocation.ts",
+        "../src/jstypes/jsoptselection.ts"
+      ],
+      "../src/options/optcontext.ts": [
+        "../src/choices/optchoice.ts",
+        "../src/asyncimageclient.ts",
+        "../src/jstypes/jsoptcontext.ts",
+        "../src/jstypes/jsoptlocation.ts",
+        "../src/jstypes/jsoptselection.ts",
+        "../src/jstypes/jsoptvalue.ts",
+        "../src/jstypes/jsqtyunit.ts",
+        "../src/jstypes/jsstyleandcolor.ts",
+        "../src/jstypes/jsoptchoicecontext.ts"
+      ],
+      "../src/choices/optchoicecontext.ts": [
+        "../src/options/optcontext.ts",
+        "../src/choices/optchoice.ts"
+      ],
+      "../src/ruleexecution/optexecutionmenu.ts": [
+        "../src/choices/optchoice.ts",
+        "../src/options/optcontext.ts"
+      ],
+      "../src/floorplans/optfloorplanimage.ts": [
+        "../src/asyncimageclient.ts",
+        "../src/options/optcontext.ts"
+      ],
+      "../src/ruleexecution/optexecutioncontext.ts": [
+        "../src/pricing/optpricingcontext.ts",
+        "../src/ruleexecution/optexecutionmenu.ts",
+        "../src/choices/optchoicecontext.ts",
+        "../src/choices/optchoice.ts",
+        "../src/options/optcontext.ts",
+        "../src/floorplans/optfloorplanimage.ts"
+      ],
+      "../src/pricing/optpricingcontext.ts": [
+        "../src/options/optcontext.ts",
+        "../src/choices/optchoicecontext.ts",
+        "../src/choices/optchoice.ts",
+        "../src/ruleexecution/optexecutioncontext.ts",
+        "../src/jstypes/jslotprice.ts",
+        "../src/jstypes/jsmodelprice.ts"
+      ],
+      "../src/ruleexecution/optruleexecutor.ts": [
+        "../src/choices/optchoicecontext.ts",
+        "../src/choices/optchoice.ts",
+        "../src/ruleexecution/optexecutioncontext.ts",
+        "../src/ruleexecution/baseoptruleexecutor.ts",
+        "../src/options/optcontext.ts",
+        "../src/debugging/performanceprofiler.ts"
+      ],
+      "../src/floorplans/optfloorplancontext.ts": [
+        "../src/ruleexecution/baseoptruleexecutor.ts",
+        "../src/options/optcontext.ts",
+        "../src/choices/optchoicecontext.ts",
+        "../src/asyncimageclient.ts",
+        "../src/floorplans/optfloorplanimage.ts",
+        "../src/jstypes/jsoptfloorplancontext.ts"
+      ],
+      "../src/debugging/optdebugcontext.ts": [
+        "../src/ruleexecution/baseoptruleexecutor.ts",
+        "../src/options/optcontext.ts",
+        "../src/debugging/optruleexpressioneffecttype.ts",
+        "../src/jstypes/optjsdebugcontext.ts"
+      ],
+      "../src/jstypes/jsgetoptcontext.ts": [
+        "../src/jstypes/jsoptcontext.ts",
+        "../src/jstypes/jslotprice.ts",
+        "../src/jstypes/jsmodelprice.ts",
+        "../src/jstypes/jsoptfloorplancontext.ts",
+        "../src/jstypes/optjsdebugcontext.ts",
+        "../src/jstypes/jsoptchoicecontext.ts"
+      ],
+      "../src/pricecollection.ts": [
+        "../src/configurationstate.ts"
+      ],
+      "../src/configurationstate.ts": [
+        "../src/options/optcontext.ts",
+        "../src/pricing/optpricingcontext.ts",
+        "../src/ruleexecution/optruleexecutor.ts",
+        "../src/floorplans/optfloorplancontext.ts",
+        "../src/debugging/optdebugcontext.ts",
+        "../src/ruleexecution/optexecutioncontext.ts",
+        "../src/choices/optchoicecontext.ts",
+        "../src/choices/optchoice.ts",
+        "../src/ruleexecution/baseoptruleexecutor.ts",
+        "../src/asyncimageclient.ts",
+        "../src/debugging/performanceprofiler.ts",
+        "../src/jstypes/jsgetoptcontext.ts",
+        "../src/pricecollection.ts"
+      ],
+      "../src/applychoice.ts": [
+        "../src/choices/optchoicecontext.ts",
+        "../src/choices/optchoice.ts",
+        "../src/options/optcontext.ts",
+        "../src/configurationstate.ts"
+      ],
+      "../src/client.ts": [
+        "../src/options/optcontext.ts",
+        "../src/pricing/optpricingcontext.ts",
+        "../src/floorplans/optfloorplancontext.ts",
+        "../src/debugging/optdebugcontext.ts",
+        "../src/ruleexecution/optexecutioncontext.ts",
+        "../src/choices/optchoicecontext.ts",
+        "../src/choices/optchoice.ts",
+        "../src/asyncimageclient.ts",
+        "../src/configurationstate.ts",
+        "../src/worksheetinfo.ts",
+        "../src/jstypes/jsoptchoicecontext.ts",
+        "../src/jstypes/jsgetoptcontext.ts"
+      ],
+      "../src/dcportalclient.ts": [
+        "../src/floorplans/optfloorplancontext.ts",
+        "../src/client.ts",
+        "../src/configurationstate.ts",
+        "../src/jstypes/jsgetoptcontext.ts"
+      ],
+      "../src/optconfiguratorsession.ts": [
+        "../src/floorplans/optfloorplancontext.ts",
+        "../src/configurationstate.ts",
+        "../src/applychoice.ts",
+        "../src/options/optcontext.ts",
+        "../src/choices/optchoice.ts",
+        "../src/pricecollection.ts"
+      ],
+      "../src/floorplans/optfloorplanvisualcontainer.ts": [
+        "../src/floorplans/optfloorplancontext.ts",
+        "../src/floorplans/optfloorplanimage.ts"
+      ],
+      "../index.ts": [
+        "../src/applychoice.ts",
+        "../src/configurationstate.ts",
+        "../src/client.ts",
+        "../src/dcportalclient.ts",
+        "../src/optconfiguratorsession.ts",
+        "../src/jstypes/jsgetoptcontext.ts",
+        "../src/jstypes/jsoptvalue.ts",
+        "../src/jstypes/jsoptselection.ts",
+        "../src/jstypes/jsstyleandcolor.ts",
+        "../src/jstypes/jsoptchoicecontext.ts",
+        "../src/floorplans/optfloorplancontext.ts",
+        "../src/floorplans/optfloorplanimage.ts",
+        "../src/floorplans/optfloorplanvisualcontainer.ts",
+        "../src/options/optcontext.ts",
+        "../src/ruleexecution/optexecutionmenu.ts",
+        "../src/worksheetinfo.ts",
+        "../src/choices/optchoicecontext.ts",
+        "../src/choices/optchoice.ts",
+        "../src/pricing/optpricingcontext.ts",
+        "../src/ruleexecution/optexecutioncontext.ts",
+        "../src/ruleexecution/baseoptruleexecutor.ts",
+        "../src/asyncimageclient.ts",
+        "../src/debugging/optdebugcontext.ts",
+        "../src/debugging/optruleexpressioneffecttype.ts"
+      ],
+      "../tests/testsupport/testablerulefunction.ts": [
+        "../src/ruleexecution/baseoptruleexecutor.ts",
+        "../src/ruleexecution/optruleexecutor.ts"
+      ],
+      "../tests/testsupport/optrulefactory.ts": [
+        "../tests/testsupport/testablerulefunction.ts",
+        "../src/options/optcontext.ts",
+        "../src/debugging/optruleexpressioneffecttype.ts"
+      ],
+      "../tests/testsupport/optcontextfactory.ts": [
+        "../src/options/optcontext.ts",
+        "../src/jstypes/jsstyleandcolor.ts",
+        "../src/jstypes/jsqtyunit.ts",
+        "../src/jstypes/jsoptvalue.ts",
+        "../src/jstypes/jsoptselection.ts",
+        "../src/jstypes/jsoptchoicecontext.ts"
+      ],
+      "../tests/testsupport/optruleconditionfactory.ts": [
+        "../tests/testsupport/testablerulefunction.ts",
+        "../src/options/optcontext.ts",
+        "../tests/testsupport/optruleexpressionbinaryoperator.ts"
+      ],
+      "../tests/optconfigurator.test.ts": [
+        "../src/configurationstate.ts",
+        "../tests/testsupport/testablerulefunction.ts",
+        "../src/options/optcontext.ts",
+        "../src/choices/optchoicecontext.ts",
+        "../src/choices/optchoice.ts",
+        "../tests/testsupport/optrulefactory.ts",
+        "../src/debugging/optruleexpressioneffecttype.ts",
+        "../src/ruleexecution/baseoptruleexecutor.ts",
+        "../src/ruleexecution/optruleexecutor.ts",
+        "../tests/testsupport/optcontextfactory.ts",
+        "../tests/testsupport/optruleconditionfactory.ts",
+        "../tests/testsupport/optruleexpressionbinaryoperator.ts",
+        "../src/debugging/performanceprofiler.ts",
+        "../src/pricing/optpricingcontext.ts"
+      ],
+      "../node_modules/@types/babel__generator/index.d.ts": [
+        "../node_modules/@babel/types/lib/index.d.ts"
+      ],
+      "../node_modules/@types/babel__traverse/index.d.ts": [
+        "../node_modules/@babel/types/lib/index.d.ts"
+      ],
+      "../node_modules/@babel/parser/typings/babel-parser.d.ts": [
+        "../node_modules/@babel/types/lib/index.d.ts"
+      ],
+      "../node_modules/@types/babel__template/index.d.ts": [
+        "../node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "../node_modules/@babel/types/lib/index.d.ts"
+      ],
+      "../node_modules/@types/babel__core/index.d.ts": [
+        "../node_modules/@types/babel__generator/index.d.ts",
+        "../node_modules/@types/babel__traverse/index.d.ts",
+        "../node_modules/@types/babel__template/index.d.ts",
+        "../node_modules/@babel/types/lib/index.d.ts",
+        "../node_modules/@babel/parser/typings/babel-parser.d.ts"
+      ],
+      "../node_modules/@types/react/index.d.ts": [
+        "../node_modules/csstype/index.d.ts",
+        "../node_modules/@types/prop-types/index.d.ts",
+        "../node_modules/@types/react/global.d.ts"
+      ],
+      "../node_modules/@types/hoist-non-react-statics/index.d.ts": [
+        "../node_modules/@types/react/index.d.ts"
+      ],
+      "../node_modules/@types/istanbul-lib-report/index.d.ts": [
+        "../node_modules/@types/istanbul-lib-coverage/index.d.ts"
+      ],
+      "../node_modules/@types/istanbul-reports/index.d.ts": [
+        "../node_modules/@types/istanbul-lib-report/index.d.ts",
+        "../node_modules/@types/istanbul-lib-coverage/index.d.ts"
+      ],
+      "../node_modules/jest-diff/build/index.d.ts": [
+        "../node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../node_modules/@types/jest/index.d.ts": [
+        "../node_modules/jest-diff/build/index.d.ts"
+      ],
+      "../node_modules/redux/index.d.ts": [
+        "../node_modules/symbol-observable/index.d.ts"
+      ],
+      "../node_modules/@types/react-redux/index.d.ts": [
+        "../node_modules/@types/react/index.d.ts",
+        "../node_modules/redux/index.d.ts",
+        "../node_modules/@types/hoist-non-react-statics/index.d.ts"
+      ],
+      "../node_modules/@types/yargs/index.d.ts": [
+        "../node_modules/@types/yargs-parser/index.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../src/ruleexecution/baseoptruleexecutor.ts": [
+        "../src/options/optcontext.ts",
+        "../src/choices/optchoicecontext.ts"
+      ],
+      "../tests/testsupport/testablerulefunction.ts": [
+        "../src/ruleexecution/baseoptruleexecutor.ts",
+        "../src/ruleexecution/optruleexecutor.ts"
+      ],
+      "../tests/testsupport/optruleconditionfactory.ts": [
+        "../src/options/optcontext.ts",
+        "../tests/testsupport/testablerulefunction.ts",
+        "../tests/testsupport/optruleexpressionbinaryoperator.ts"
+      ],
+      "../tests/testsupport/optrulefactory.ts": [
+        "../src/options/optcontext.ts",
+        "../tests/testsupport/testablerulefunction.ts",
+        "../src/debugging/optruleexpressioneffecttype.ts"
+      ],
+      "../index.ts": [
+        "../src/applychoice.ts",
+        "../src/configurationstate.ts",
+        "../src/client.ts",
+        "../src/dcportalclient.ts",
+        "../src/optconfiguratorsession.ts",
+        "../src/jstypes/jsgetoptcontext.ts",
+        "../src/jstypes/jsoptvalue.ts",
+        "../src/jstypes/jsoptselection.ts",
+        "../src/jstypes/jsstyleandcolor.ts",
+        "../src/jstypes/jsoptchoicecontext.ts",
+        "../src/floorplans/optfloorplancontext.ts",
+        "../src/floorplans/optfloorplanimage.ts",
+        "../src/floorplans/optfloorplanvisualcontainer.ts",
+        "../src/options/optcontext.ts",
+        "../src/ruleexecution/optexecutionmenu.ts",
+        "../src/worksheetinfo.ts",
+        "../src/choices/optchoicecontext.ts",
+        "../src/choices/optchoice.ts",
+        "../src/pricing/optpricingcontext.ts",
+        "../src/ruleexecution/optexecutioncontext.ts",
+        "../src/ruleexecution/baseoptruleexecutor.ts",
+        "../src/asyncimageclient.ts",
+        "../src/debugging/optdebugcontext.ts",
+        "../src/debugging/optruleexpressioneffecttype.ts"
+      ],
+      "../src/configurationstate.ts": [
+        "../src/choices/optchoicecontext.ts",
+        "../src/ruleexecution/baseoptruleexecutor.ts",
+        "../src/asyncimageclient.ts",
+        "../src/jstypes/jsgetoptcontext.ts",
+        "../src/floorplans/optfloorplancontext.ts",
+        "../src/debugging/optdebugcontext.ts",
+        "../src/ruleexecution/optexecutioncontext.ts",
+        "../src/pricing/optpricingcontext.ts",
+        "../src/options/optcontext.ts",
+        "../src/pricecollection.ts",
+        "../src/choices/optchoice.ts",
+        "../src/ruleexecution/optruleexecutor.ts",
+        "../src/debugging/performanceprofiler.ts"
+      ],
+      "../src/optconfiguratorsession.ts": [
+        "../src/configurationstate.ts",
+        "../src/applychoice.ts",
+        "../src/choices/optchoice.ts"
+      ],
+      "../src/dcportalclient.ts": [
+        "../src/configurationstate.ts"
+      ],
+      "../src/client.ts": [
+        "../src/worksheetinfo.ts",
+        "../src/asyncimageclient.ts",
+        "../src/jstypes/jsgetoptcontext.ts",
+        "../src/configurationstate.ts"
+      ],
+      "../src/applychoice.ts": [
+        "../src/choices/optchoicecontext.ts",
+        "../src/options/optcontext.ts",
+        "../src/choices/optchoice.ts",
+        "../src/configurationstate.ts"
+      ],
+      "../src/pricecollection.ts": [
+        "../index.ts",
+        "../src/configurationstate.ts"
+      ],
+      "../src/debugging/optdebugcontext.ts": [
+        "../src/debugging/optruleexpressioneffecttype.ts",
+        "../src/ruleexecution/baseoptruleexecutor.ts",
+        "../src/options/optcontext.ts",
+        "../src/jstypes/optjsdebugcontext.ts"
+      ],
+      "../src/floorplans/optfloorplancontext.ts": [
+        "../src/floorplans/optfloorplanimage.ts",
+        "../src/asyncimageclient.ts",
+        "../src/options/optcontext.ts",
+        "../src/ruleexecution/baseoptruleexecutor.ts",
+        "../src/jstypes/jsoptfloorplancontext.ts",
+        "../src/choices/optchoicecontext.ts"
+      ],
+      "../src/floorplans/optfloorplanvisualcontainer.ts": [
+        "../src/floorplans/optfloorplanimage.ts",
+        "../src/floorplans/optfloorplancontext.ts"
+      ],
+      "../src/ruleexecution/optruleexecutor.ts": [
+        "../src/options/optcontext.ts",
+        "../src/choices/optchoicecontext.ts",
+        "../src/debugging/performanceprofiler.ts",
+        "../src/ruleexecution/optexecutioncontext.ts",
+        "../src/ruleexecution/baseoptruleexecutor.ts",
+        "../src/choices/optchoice.ts"
+      ],
+      "../src/choices/optchoice.ts": [
+        "../src/choices/optchoicecontext.ts",
+        "../src/options/optcontext.ts",
+        "../src/ruleexecution/baseoptruleexecutor.ts"
+      ],
+      "../src/pricing/optpricingcontext.ts": [
+        "../src/options/optcontext.ts",
+        "../src/choices/optchoicecontext.ts",
+        "../src/jstypes/jsmodelprice.ts",
+        "../src/jstypes/jslotprice.ts",
+        "../src/ruleexecution/optexecutioncontext.ts",
+        "../src/choices/optchoice.ts"
+      ],
+      "../src/ruleexecution/optexecutioncontext.ts": [
+        "../src/ruleexecution/optexecutionmenu.ts",
+        "../src/floorplans/optfloorplanimage.ts",
+        "../src/pricing/optpricingcontext.ts",
+        "../src/choices/optchoice.ts",
+        "../src/options/optcontext.ts",
+        "../src/choices/optchoicecontext.ts"
+      ],
+      "../src/ruleexecution/optexecutionmenu.ts": [
+        "../src/choices/optchoice.ts",
+        "../src/options/optcontext.ts"
+      ],
+      "../src/choices/optchoicecontext.ts": [
+        "../src/choices/optchoice.ts",
+        "../src/options/optcontext.ts"
+      ],
+      "../src/options/optcontext.ts": [
+        "../src/jstypes/jsoptselection.ts",
+        "../src/asyncimageclient.ts",
+        "../src/jstypes/jsstyleandcolor.ts",
+        "../src/jstypes/jsoptvalue.ts",
+        "../src/choices/optchoice.ts",
+        "../src/jstypes/jsqtyunit.ts",
+        "../src/jstypes/jsoptcontext.ts",
+        "../src/jstypes/jsoptchoicecontext.ts",
+        "../src/jstypes/jsoptlocation.ts"
+      ],
+      "../tests/testsupport/optcontextfactory.ts": [
+        "../src/options/optcontext.ts"
+      ],
+      "../src/floorplans/optfloorplanimage.ts": [
+        "../src/options/optcontext.ts",
+        "../src/asyncimageclient.ts"
+      ],
+      "../src/jstypes/jsoptselection.ts": [
+        "../src/options/optcontext.ts",
+        "../src/jstypes/jsoptvalue.ts",
+        "../src/jstypes/jsoptlocation.ts"
+      ],
+      "../src/jstypes/jsoptcontext.ts": [
+        "../src/jstypes/jsoptlocation.ts",
+        "../src/jstypes/jsoptselection.ts"
+      ],
+      "../src/jstypes/jsgetoptcontext.ts": [
+        "../src/jstypes/jsoptcontext.ts",
+        "../src/jstypes/jsoptchoicecontext.ts",
+        "../src/jstypes/jsmodelprice.ts",
+        "../src/jstypes/jslotprice.ts",
+        "../src/jstypes/jsoptfloorplancontext.ts",
+        "../src/jstypes/optjsdebugcontext.ts"
+      ],
+      "../src/jstypes/jsoptvalue.ts": [
+        "../src/jstypes/jsqtyunit.ts",
+        "../src/jstypes/jsstyleandcolor.ts"
+      ],
+      "../src/jstypes/jsstyleandcolor.ts": [
+        "../src/jstypes/jsqtyunit.ts"
+      ],
+      "../node_modules/@types/babel__core/index.d.ts": [
+        "../node_modules/@types/babel__generator/index.d.ts",
+        "../node_modules/@types/babel__traverse/index.d.ts",
+        "../node_modules/@types/babel__template/index.d.ts",
+        "../node_modules/@babel/types/lib/index.d.ts",
+        "../node_modules/@babel/parser/typings/babel-parser.d.ts"
+      ],
+      "../node_modules/@types/babel__template/index.d.ts": [
+        "../node_modules/@babel/parser/typings/babel-parser.d.ts",
+        "../node_modules/@babel/types/lib/index.d.ts"
+      ],
+      "../node_modules/@babel/parser/typings/babel-parser.d.ts": [
+        "../node_modules/@babel/types/lib/index.d.ts"
+      ],
+      "../node_modules/@types/babel__traverse/index.d.ts": [
+        "../node_modules/@babel/types/lib/index.d.ts"
+      ],
+      "../node_modules/@types/babel__generator/index.d.ts": [
+        "../node_modules/@babel/types/lib/index.d.ts"
+      ],
+      "../node_modules/@types/react/index.d.ts": [
+        "../node_modules/csstype/index.d.ts",
+        "../node_modules/@types/prop-types/index.d.ts",
+        "../node_modules/@types/react/global.d.ts"
+      ],
+      "../node_modules/@types/react-redux/index.d.ts": [
+        "../node_modules/@types/react/index.d.ts",
+        "../node_modules/redux/index.d.ts",
+        "../node_modules/@types/hoist-non-react-statics/index.d.ts"
+      ],
+      "../node_modules/@types/hoist-non-react-statics/index.d.ts": [
+        "../node_modules/@types/react/index.d.ts"
+      ],
+      "../node_modules/@types/istanbul-reports/index.d.ts": [
+        "../node_modules/@types/istanbul-lib-report/index.d.ts",
+        "../node_modules/@types/istanbul-lib-coverage/index.d.ts"
+      ],
+      "../node_modules/@types/istanbul-lib-report/index.d.ts": [
+        "../node_modules/@types/istanbul-lib-coverage/index.d.ts"
+      ],
+      "../node_modules/jest-diff/build/index.d.ts": [
+        "../node_modules/jest-diff/build/types.d.ts"
+      ],
+      "../node_modules/@types/jest/index.d.ts": [
+        "../node_modules/jest-diff/build/index.d.ts"
+      ],
+      "../node_modules/redux/index.d.ts": [
+        "../node_modules/symbol-observable/index.d.ts"
+      ],
+      "../node_modules/@types/yargs/index.d.ts": [
+        "../node_modules/@types/yargs-parser/index.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../src/ruleexecution/baseoptruleexecutor.ts",
+      "../src/choices/optchoice.ts",
+      "../src/asyncimageclient.ts",
+      "../src/jstypes/jsoptlocation.ts",
+      "../src/jstypes/jsqtyunit.ts",
+      "../src/jstypes/jsstyleandcolor.ts",
+      "../src/jstypes/jsoptvalue.ts",
+      "../src/jstypes/jsoptselection.ts",
+      "../src/jstypes/jsoptcontext.ts",
+      "../src/jstypes/jsoptchoicecontext.ts",
+      "../src/options/optcontext.ts",
+      "../src/choices/optchoicecontext.ts",
+      "../src/ruleexecution/optexecutionmenu.ts",
+      "../src/floorplans/optfloorplanimage.ts",
+      "../src/ruleexecution/optexecutioncontext.ts",
+      "../src/jstypes/jslotprice.ts",
+      "../src/jstypes/jsmodelprice.ts",
+      "../src/pricing/optpricingcontext.ts",
+      "../src/debugging/performanceprofiler.ts",
+      "../src/ruleexecution/optruleexecutor.ts",
+      "../src/jstypes/jsoptfloorplancontext.ts",
+      "../src/floorplans/optfloorplancontext.ts",
+      "../src/debugging/optruleexpressioneffecttype.ts",
+      "../src/jstypes/optjsdebugcontext.ts",
+      "../src/debugging/optdebugcontext.ts",
+      "../src/jstypes/jsgetoptcontext.ts",
+      "../src/pricecollection.ts",
+      "../src/configurationstate.ts",
+      "../src/applychoice.ts",
+      "../src/worksheetinfo.ts",
+      "../src/client.ts",
+      "../src/dcportalclient.ts",
+      "../src/optconfiguratorsession.ts",
+      "../src/floorplans/optfloorplanvisualcontainer.ts",
+      "../index.ts",
+      "../tests/testsupport/testablerulefunction.ts",
+      "../tests/testsupport/optrulefactory.ts",
+      "../tests/testsupport/optcontextfactory.ts",
+      "../tests/testsupport/optruleexpressionbinaryoperator.ts",
+      "../tests/testsupport/optruleconditionfactory.ts",
+      "../tests/optconfigurator.test.ts",
+      "../tests/testsupport/expectextensions.ts",
+      "../tests/testsupport/recursivepartial.ts",
+      "../node_modules/@babel/types/lib/index.d.ts",
+      "../node_modules/@types/babel__generator/index.d.ts",
+      "../node_modules/@types/babel__traverse/index.d.ts",
+      "../node_modules/@babel/parser/typings/babel-parser.d.ts",
+      "../node_modules/@types/babel__template/index.d.ts",
+      "../node_modules/@types/babel__core/index.d.ts",
+      "../node_modules/@types/react/global.d.ts",
+      "../node_modules/csstype/index.d.ts",
+      "../node_modules/@types/prop-types/index.d.ts",
+      "../node_modules/@types/react/index.d.ts",
+      "../node_modules/@types/hoist-non-react-statics/index.d.ts",
+      "../node_modules/@types/istanbul-lib-coverage/index.d.ts",
+      "../node_modules/@types/istanbul-lib-report/index.d.ts",
+      "../node_modules/@types/istanbul-reports/index.d.ts",
+      "../node_modules/jest-diff/build/types.d.ts",
+      "../node_modules/jest-diff/build/index.d.ts",
+      "../node_modules/@types/jest/index.d.ts",
+      "../node_modules/symbol-observable/index.d.ts",
+      "../node_modules/redux/index.d.ts",
+      "../node_modules/@types/react-redux/index.d.ts",
+      "../node_modules/@types/stack-utils/index.d.ts",
+      "../node_modules/@types/yargs-parser/index.d.ts",
+      "../node_modules/@types/yargs/index.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.full.d.ts",
+      "../node_modules/typescript/lib/lib.es5.d.ts",
+      "../node_modules/typescript/lib/lib.dom.d.ts",
+      "../node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "../node_modules/typescript/lib/lib.scripthost.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "../node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "../node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "../node_modules/typescript/lib/lib.es2017.typedarrays.d.ts"
+    ]
+  },
+  "version": "3.8.3"
+}

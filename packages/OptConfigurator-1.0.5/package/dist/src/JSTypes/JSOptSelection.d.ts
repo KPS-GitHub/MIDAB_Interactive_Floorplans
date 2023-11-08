@@ -1,0 +1,20 @@
+import { JSOptLocation } from "./JSOptLocation";
+import { OptSelectionType } from "../Options/OptContext";
+import { JSOptValue } from "./JSOptValue";
+export declare type JSOptSelection = {
+    Name: string;
+    AvailabilityUnknown: boolean;
+    AvailabilityDepends: boolean;
+    ID: string;
+    PricingRequired: boolean;
+    OptSelectionType: OptSelectionType;
+    IsDesignCenterOption: boolean;
+    IsSalesOfficeOption: boolean;
+    SortOrder: number;
+    Values: JSOptValue[];
+    Location: JSOptLocation;
+    Category: JSOptLocation;
+    LocGroup: JSOptLocation;
+    CatGroup: JSOptLocation;
+    IsWebEnabled: boolean;
+};

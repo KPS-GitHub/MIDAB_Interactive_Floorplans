@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "outDir": "dist",
+        "strict": true,
+        "sourceMap": true,
+        "module": "commonjs",
+        "target": "es2017",
+        "experimentalDecorators": true,
+        "alwaysStrict": true,
+        "jsx": "react",
+        "composite": true,
+        "moduleResolution": "node"
+    },
+    "include": ["src/**/*", "index.ts"],
+    "exclude": ["node_modules"]
+}

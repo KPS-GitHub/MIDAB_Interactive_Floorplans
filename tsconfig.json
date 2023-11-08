@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+
+        "strict": true,
+        "sourceMap": true,
+        "module": "commonjs",
+        "target": "es2017",
+        "experimentalDecorators": true,
+        "alwaysStrict": true,
+        "noEmit": true,
+        "pretty": true,
+        "jsx": "react"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}
