@@ -1,13 +1,12 @@
 import * as React from "react";
 import { OptSelection, OptSelectionChanged } from "./OptSelection"
-import { OptExecutionContext, OptExecutionMenu, OptChoice, OptChoiceContext, OptPricingContext } from "OptConfigurator";
+import { OptExecutionContext, OptExecutionMenu, OptChoice, OptChoiceContext } from "OptConfigurator";
 
 interface IOptionListProps {
     choices: OptChoiceContext;
     executionContext: OptExecutionContext;
     options: OptExecutionMenu[];
     optionChanged: OptSelectionChanged;
-    pricingContext: OptPricingContext;
 }
 
 export class OptionList extends React.Component<IOptionListProps> {
