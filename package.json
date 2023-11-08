@@ -29,7 +29,8 @@
     "react-dom": "^16.3.1"
   },
   "scripts": {
-    "build": "tsc && webpack",
+    "build": "tsc && webpack && export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
     "update-optconfigurator": "npm install OptSelectionControls --package-lock-only && npm install OptConfigurator --force",
     "update-optselectioncontrols": "npm install OptSelectionControls --force"
   }
