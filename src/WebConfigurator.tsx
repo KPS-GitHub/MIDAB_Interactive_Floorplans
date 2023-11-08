@@ -12,7 +12,7 @@ const communityRID = getRID(searchParams, "communityRID");
 const modelRID = getRID(searchParams, "modelRID");
 const doInitialize = !!searchParams.get("initialize");
 const token = searchParams.get("token") ?? "";
-const odataEndpoint = searchParams.get("endpoint") ?? "https://localhost/Kova1WebApi/odatab";
+const odataEndpoint = searchParams.get("endpoint") ?? "https://sapphire.midatlanticbuilders.com/MABBetaWebAPI/odatab";
 const odataFunction = searchParams.get("odataFunction") || "SBEntities.GetOptContext2";
 
 const app = <ConfiguratorLauncher 
